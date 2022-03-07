@@ -1,0 +1,97 @@
+html,
+body {
+  background-color: rgb(194, 194, 194);
+  padding: 0%;
+  margin: 0%;
+  border: 0;
+  height: 85vh;
+}
+
+body header {
+  background-color: green;
+  height: 15vh;
+  padding: 0%;
+  margin: 0%;
+  border: 0;
+}
+
+main section {
+  height: 92%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+main header {
+  height: 8%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+#main-container {
+  position: relative;
+  margin: 0% 10% 0% 10%;
+  padding: 0;
+  border: 0;
+  top: -13%;
+  height: 107%;
+  background-color: yellow;
+}
+#ContactsHeader {
+  width: 25%;
+  height: 100%;
+  float: left;
+  background: rgb(228, 228, 228);
+  overflow: scroll;
+}
+#ConversationsHeader {
+  width: 75%;
+  height: 100%;
+  float: left;
+  background: rgb(228, 228, 228);
+  overflow: scroll;
+}
+#Contacts {
+  width: 25%;
+  height: 100%;
+  float: left;
+  background: white;
+}
+#Conversation {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 75%;
+  height: 100%;
+  float: left;
+}
+
+#Conversation div {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(255, 241, 202);
+  position: relative;
+}
+#Conversation footer {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  height: 4rem;
+  width: 100%;
+  background: rgb(243, 243, 243);
+  position: relative;
+}
+#Conversation footer input {
+  width: 90%;
+  height: 2.5rem;
+  border-radius: 10px;
+  border: 1px;
+}
+footer img:first-child {
+  height: 2rem;
+  margin: 0rem 0rem 0rem 1rem;
+}
+footer img {
+  height: 2rem;
+  margin: 0rem 1rem 0rem 1rem;
+}
