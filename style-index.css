@@ -72,6 +72,7 @@ main header {
   background: white;
   overflow: scroll;
 }
+
 #Conversation {
   display: flex;
   align-items: flex-start;
@@ -121,12 +122,32 @@ main header {
   margin: 0.5rem;
 }
 
+.MessageText {
+  font-size: smaller;
+  line-height: 1.1rem;
+  margin: 0 4.5rem 0 0;
+}
+
+.MessageTime {
+  position: absolute;
+  font-size: 0.6rem;
+  right: 10px;
+  bottom: 1px;
+}
+
+.MessageTimeWithImage {
+  position: absolute;
+  font-size: 0.6rem;
+  right: 5px;
+  bottom: 1px;
+}
+
 .Input {
   position: relative;
   background-color: white;
   width: fit-content;
   max-width: 65%;
-  padding: 16px;
+  padding: 12px 0px 12px 12px;
   margin: 10px 10px 10px 45px;
   border-radius: 0% 20px 20px 20px;
   float: left;
@@ -147,7 +168,7 @@ main header {
   background-color: rgb(120, 196, 152);
   width: fit-content;
   max-width: 65%;
-  padding: 16px;
+  padding: 12px 12px 12px 12px;
   margin: 10px 45px 10px 10px;
   border-radius: 20px 0px 20px 20px;
   float: right;
@@ -164,6 +185,10 @@ main header {
   box-shadow: 0px 10px 0 0 rgb(120, 196, 152);
 }
 
+.TickImage {
+  height: 0.7rem;
+}
+
 .ContactTitle {
   font-size: smaller;
   color: red;
@@ -178,6 +203,11 @@ main header {
   margin: 0;
   border-bottom: 1px solid rgb(243, 243, 243);
 }
+
+.ContactInfo:first-child {
+  background-color: rgb(243, 243, 243);
+}
+
 .ContactInfo > div {
   display: flex;
   flex-direction: row;
