@@ -42,7 +42,6 @@ main header {
   margin: 0% 10% 0% 10%;
   top: -15%;
   height: 112%;
-  background-color: yellow;
 }
 #ContactsHeader {
   width: 30%;
@@ -106,6 +105,7 @@ main header {
   height: 2.5rem;
   border-radius: 10px;
   border: 1px;
+  outline: none;
 }
 .AppButton:first-child {
   height: 2rem;
@@ -204,7 +204,7 @@ main header {
   border-bottom: 1px solid rgb(243, 243, 243);
 }
 
-.ContactInfo:first-child {
+.ContactInfo:first-of-type {
   background-color: rgb(243, 243, 243);
 }
 
@@ -238,4 +238,34 @@ main header {
   font-size: smaller;
   max-height: 2rem;
   overflow: hidden;
+}
+
+#ContactSearchBar {
+  background-color: white;
+  border-bottom: 1px solid rgb(243, 243, 243);
+  height: 3rem;
+}
+
+#SearchBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+  border-radius: 20px 20px 20px 20px;
+  background-color: rgb(243, 243, 243);
+}
+
+#SearchBar input {
+  border: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 20% 20px 20px 20px;
+  background-color: rgb(243, 243, 243);
+  outline: none;
+}
+
+#SearchBarImg {
+  margin: 1rem;
+  height: 1.5rem;
 }
